@@ -1,0 +1,25 @@
+ru:
+  activerecord:
+
+    attributes:
+      product:
+        name: Название
+        description: Описание
+        price: Цена
+        weight: Вес
+      line_item:
+        quantity: Кол-во
+        price: Цена
+        product: Товар
+    models:
+      product: Товар
+      cart: Корзина
+      line_item: Запись
+  views:
+    pagination:
+      previous: "&lt; Пред"
+      next: "След &gt;"
+      first: "Начало"
+      last: "Конец"
+      truncate: "..."
+   
